@@ -1,0 +1,30 @@
+h1 {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    padding-left: 50px;
+    transition: 600ms;
+    width: 300px;
+    min-height: 100%;
+    height: 30rem;
+}
+
+.navbarclosed {
+    width: 50px;
+}
+
+.hide {
+    background-color: red;
+}

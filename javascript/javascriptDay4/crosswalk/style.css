@@ -1,0 +1,52 @@
+img {
+    width: 30rem;
+    height: 30rem;
+    
+}
+
+
+.container {
+    display: flex;
+    
+
+
+}
+
+.container div {
+    background-repeat: no-repeat ;
+    background-size: 30rem;
+    width: 30rem;
+    height: 30rem;
+}
+
+.walk-off {
+    background-image: url(walk-off.svg);
+
+}
+
+.stop-on {
+    background-image: url(stop-on.svg);
+
+}
+
+.walk-on {
+    background-image: url(walk-on.svg);
+
+}
+
+.stop-off {
+    background-image: url(stop-off.svg);
+
+}
+
+
+
+.cross {
+    width: 10rem;
+    height: 10rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border-radius: 40%;
+    border: 1px solid black;
+}

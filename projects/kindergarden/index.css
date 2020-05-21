@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    font-family: "roboto","arial";
+}
+
+
+
+
+#home {
+    background-image: url("img/banner.jpg");
+    height: 500px;
+}
+
+.picture_text {
+    margin: 0 auto;
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+
+    
+}
+
+hr {
+    color: black;
+}
+
+/* nav {
+    margin-left: 50px;
+} */
+ul li {
+    list-style-type: none;
+    display:inline;
+    text-align: center;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+#home img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.belfast {
+    color: red;
+}
+
+
+#mission {
+    padding: 50px 200px;
+    background-color: #FFE964;
+    text-align: center;
+}
+
+#mission h2 {
+    text-align: center;
+}
+
+#about {
+    padding: 50px 200px;
+    background-color: white;
+    text-align: left;
+}
+
+#our_team {
+
+
+    padding: 50px 200px;
+    background-color: #FF523D;
+    text-align: center;
+    color: white;
+
+}
+
+#our_team .name {
+    font-weight: bold;
+}
+
+#contact {
+    padding: 50px 200px;
+    background-color: #223C88;
+    color: white;
+}
+
+#our_team img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+
+h2 {
+    text-align: left;
+    padding-bottom: 20px;
+}

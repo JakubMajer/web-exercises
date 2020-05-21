@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import "variables";
+@import "icons";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar {
+  position: fixed;
+  
+  width: 16rem;
+  height: 100vh;
+  padding: 1rem 2rem;
+
+  background-color: $color-bg-primary;  
+  
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+  &__logo {
+    background-image: url('/img/vibecast-logo.svg');
+    background-size: contain;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  &__lines {
+    color: $color-text-sidebar;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+
+  &__text {
+    color: white;
+  }
+
+  &__email {
+    color: $color-text-sidebar;
+  }
+  &__subscribe {
+    background-color: blue;
+    }
+}
+
+
+.podcast {
+  margin-left: 16rem;
+}
+
+.podcast-heading {
+  display: flex;
+  align-items: center;
+  
+  height: 5rem;
+  padding: 1rem 2.5rem;
+  
+  background-color: $color-bg-secondary;
+
+  &__logo {
+    img {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    margin-right: 1rem;
+  }
+
+  &__title {
+    padding-bottom: 0.5rem;
+    
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+
+}
+
+.podcastcontainer {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .episode {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    border-top: 2px solid green;
+    width: auto;
+
+    &__number {
+      font-size: 3rem;
+      color: grey;
+      font-weight: bold;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      opacity: 0.5;
+    }
+
+    &__picture {
+      width: 5rem;
+    }
+
+    &__text {
+      text-transform: uppercase;
+      align-self: center;
+    }
+
+}
+
+.time {
+  font-size: 0.8em;
+  color: grey;
+
+}
+

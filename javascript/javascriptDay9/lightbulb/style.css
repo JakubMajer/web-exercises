@@ -1,0 +1,12 @@
+.on {
+    background-image: url(img/bulb-on.png);
+    height: 30rem;
+    background-repeat: no-repeat;
+}
+
+
+.off {
+    background-image: url(img/bulb-off.png);
+    height: 30rem;
+    background-repeat: no-repeat;
+}

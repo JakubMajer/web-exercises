@@ -1,0 +1,301 @@
+html {
+    box-sizing: border-box;
+    font-family: "Alegreya Sans";
+    
+}
+
+body {
+    margin: 0;
+    
+}
+
+
+
+.nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    background-color: grey;
+
+
+
+    &__logo {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    &__link {
+        color: white;
+        text-decoration: none;
+
+    }
+    :hover {
+        color: yellow;
+    }
+}
+
+
+.header {
+    text-align: center;
+    border: 2px solid green;
+    padding-top: 10rem;
+    background-image: url(/img/background.jpg);
+    height: 500px;
+
+    &__first {
+        color: yellow;
+        font-size: 4em;
+        border: 2px solid red;
+    }
+
+    &__second {
+        font-size: 3em;
+        border: 2px solid red;
+        color: yellow;
+    }
+}
+
+// h1 {
+//     font-size: 4em;
+//     text-align: center;
+// }
+
+// h2 {
+//     font-size: 3em;
+//     text-align: center;
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+
+
+}
+
+h4 {
+    font-size: 30px;
+    color: #54be90;
+}
+
+h1 strong {
+    color: #54be90;
+    text-decoration: underline;
+
+}
+
+
+.quote {
+    margin: 50px;
+    font-size: 30px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.ddd {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.dddtext {
+    /* padding:0 50px; */
+    margin: 40px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+
+
+.skills {
+    color: #54be90;
+    padding: 100px;
+    display: flex;
+    padding: 1rem;
+    font-size: 30px;
+    padding-right: 20rem;
+    padding-left: 20rem;
+
+    &__name {
+        display: flex;
+        flex-basis: 20%;
+        background-color: black;
+        color: white;
+        justify-content: center;
+    }
+
+    &__line {
+        display: flex;
+        background-color: #54be90;
+    }
+
+    &__number {
+        display: flex;
+        flex-grow: 1;
+        background-color: lightgray;
+        color: grey;
+        justify-content: flex-end;
+    }
+
+    .html {
+        flex-grow: 4;
+    }
+    
+    .css {
+        flex-grow: 4;
+    }
+    
+    .javascript {
+        flex-grow: 3;
+    }
+    
+    .react {
+        flex-grow: 2;
+    }
+    
+    .jquery {
+        flex-grow: 3;
+    }
+    
+    .php {
+        flex-grow: 2;
+    }
+    
+    .laravel {
+        flex-grow: 2;
+    }
+    
+    .ux {
+        flex-grow: 1;
+    }
+}
+
+// &__name {
+//     display: flex;
+//     flex-basis: 20%;
+//     background-color: black;
+//     color: white;
+//     justify-content: center;
+// }
+
+
+
+
+
+
+
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10rem;
+    padding-left: 10rem;
+
+    &__picture {
+        border-radius: 5%;
+        height: 300px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        color: black;
+    }
+
+    &__button {
+        width: 20%;
+        height: 3rem;
+        color: white;
+        background-color: #54be90;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        border: 1px solid #54be90;
+        border-radius: 10%;
+        font-size: 1rem;
+    }
+	
+
+}
+    
+
+
+.getintouch {
+    font-size: 20px;
+
+}
+
+
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+
+    
+
+.contact {
+    font-size: 1rem; 
+    background-color: #54be90;
+    color: white;
+
+
+}
+.form {
+
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    align-items: flex-start;
+    margin-left: 40rem;
+
+    &__input {
+        width: 20rem;
+        height: 5rem;
+        border: none;
+        border-bottom: 1px solid grey;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+
+    &__button {
+        background-color: black;
+        color: white;
+        width: 20rem;
+        height: 3rem;
+    }
+}
+
+
+
+// .footer {
+//     background-color: $secondary-color;
+//     color: $white;
+ 
+//     .title {
+//         font-size: 18px;
+//     }
+ 
+//     .link {
+//         color: $white;
+ 
+//         &:hover {
+//             color: rgba($white, 0.5);
+//         }
+//     }
+ 
+//     .copyright {
+//         font-size: 12px;
+//     }
+// }

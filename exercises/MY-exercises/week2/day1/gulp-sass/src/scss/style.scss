@@ -1,0 +1,27 @@
+$primary_color: yellow;
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:grey; 
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: $primary_color;
+}
+
+h2 {
+    text-align: center;
+    color: $primary_color;
+}
+
+p {
+    text-align: center;
+    color: $primary_color;
+}
+
+@import 'footer.scss'

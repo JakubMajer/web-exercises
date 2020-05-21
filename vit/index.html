@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php" method="post">
+
+        <input type="hidden" name="is-robot" value="1">
+
+        <label for="name" >your name</label>
+        <input id="name" type="text" name="user[first-name]" value="" placeholder="your first name" required> 
+
+        <br>
+        <br>
+
+        <textarea name="user[biography]" id="" cols="30" rows="10" placeholder="value">The value of the text</textarea>
+
+       <br>
+
+        <label>Is admin
+            <input type="hidden" name="is-admin" value="0">
+        <input id="admin" type="checkbox" name="is-admin" value="1" checked>
+        </label>
+        <br>
+
+        <label>
+            Female
+            <input type="radio" name="gender" value="female">
+        </label>
+        <label>
+            Male
+            <input type="radio" name="gender" value="male">
+        </label>
+        <label>
+            Other
+            <input type="radio" name="gender" value="other">
+        </label>
+       
+        <br>
+
+        <select name="user-role">
+            <option value="admin">Administrator</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+
+        </select>
+
+        <input type="submit" value="save" name="submit">
+        <input type="submit" value="delete" name="submit">
+
+        
+
+        
+
+    </form>
+    
+    
+</body>
+</html>

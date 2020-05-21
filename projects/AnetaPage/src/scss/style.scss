@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Alegreya Sans";
+    bo
+}
+
+
+
+.navbar {
+    /* background-image: url("../img/logo.png"); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-size: 20px;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+	height: 4rem;
+}
+
+.navlink {
+	color: white;
+	background-color: black;
+	font-size: 1.5rem;
+	text-decoration: none;
+	padding: 1.25rem 5rem;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+
+}
+h4 {
+    font-size: 30px;
+    color: #54be90;
+}
+
+h1 strong {
+    color: #54be90;
+    text-decoration: underline;
+
+}
+
+.header {
+    background-image: url("../img/wood.jpg");
+    height: 500px;
+    padding-top: 10rem;
+    color: white;
+}
+
+.quote {
+    margin: 50px;
+    font-size: 30px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.ddd {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.dddtext {
+    /* padding:0 50px; */
+    margin: 40px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+
+
+.skills {
+    color: #54be90;
+    padding: 100px;
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.name {
+    display: flex;
+    flex-basis: 20%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.number {
+    display: flex;
+    flex-grow: 1;
+    background-color: lightgray;
+    color: grey;
+    justify-content: flex-end;
+
+}
+
+.line {
+    display: flex;
+    background-color: #54be90;
+}
+
+.html {
+    flex-grow: 4;
+}
+
+.css {
+    flex-grow: 4;
+}
+
+.javascript {
+    flex-grow: 3;
+}
+
+.react {
+    flex-grow: 2;
+}
+
+.jquery {
+    flex-grow: 3;
+}
+
+.php {
+    flex-grow: 2;
+}
+
+.laravel {
+    flex-grow: 2;
+}
+
+.ux {
+    flex-grow: 1;
+}
+
+
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #ebebeb;
+    padding: 2rem 15% 6rem 15%;
+
+}
+    
+.picture {
+        width: 45%;
+        max-width: 30rem;
+        height: 30rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+.getintouch {
+    font-size: 20px;
+
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 300px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.contact {
+    
+
+}
+

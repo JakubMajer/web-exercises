@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 10rem 20rem;
+}
+
+img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.color1 {
+    display: none;
+}
+
+.color2 {
+    display: inline;
+    color: black;
+}
